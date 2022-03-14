@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220211002856">	
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__top top-header">
+				<div class="top-header__container">
+					<div class="top-header__block">
+						<a class="top-header__logo" href="#">
+							<img src="img/logo.svg" alt="">
+						</a>
+
+						<nav class="top-header__navv">
+							<ul class="top-header__list">
+								<li class="top-header__item"><a href="#" data-goto-top="45" data-goto=".page__about-block" class="top-header__link">О НАС</a></li>
+								<li class="top-header__item"><a href="#" data-goto=".page__price-block" class="top-header__link">ПРАЙС</a></li>
+								<li class="top-header__item"><a href="#" data-goto=".page__review-block" class="top-header__link">ОТЗЫВЫ</a></li>
+								<li class="top-header__item"><a href="#" data-goto=".page__contacts-block" class="top-header__link">КОНТАКТЫ</a></li>
+							</ul>
+						</nav>
+
+					</div>
+				</div>
+			</div>
+		</header>
+		<div id="popup" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<form action="#" id="form_pop" class="popup__content">
+					<div class="popup__title">Мы вам перезвоним!</div>
+					<input placeholder="Ваше имя" id="name_pop" name="name" type="text" class="popup__input _req_pop">
+					<input placeholder="Ваш номер телефона" id="phone_pop" name="phone" type="phone" class="popup__input _req_pop _phone">
+
+					<div class="popup__row row-popup">
+						<button id="btn_pop" type="submit" class="row-popup__button">Отправить</button>
+					</div>
+
+					<!-- <button data-close type="button" class="popup__close">Закрыть</button> -->
+
+				</form>
+			</div>
+		</div>
+
+
+		<main class="page page_home">
+			<div class="page__main-block main-block">
+				<div class="main-block__container">
+					<div data-da=".main-block__container, 767.9, 2" class="main-block__recording recording-main-block">
+						<h1 class="recording-main-block__title ">Семейная стоматология</h1>
+						<div class="recording-main-block__text">Доверьте свою улыбку професионалам!</div>
+						<a href="" data-popup="#popup" class="recording-main-block__button">ЗАПИСЬ</a>
+					</div>
+					<div class="main-block__slider swiper">
+						<div class="main-block__swiper swiper-wrapper">
+							<div class="main-block__slide slide-main-block swiper-slide">
+								<div class="slide-main-block__content">
+									<div class="slide-main-block__slider _ibg">
+										<picture><source srcset="img/slider/image1.webp" type="image/webp"><img src="img/slider/image1.png" alt="#"></picture>
+									</div>
+								</div>
+							</div>
+							<div class="main-block__slide slide-main-block swiper-slide">
+								<div class="slide-main-block__content">
+									<div class="slide-main-block__slider _ibg">
+										<picture><source srcset="img/slider/image2.webp" type="image/webp"><img src="img/slider/image2.png" alt="#"></picture>
+									</div>
+								</div>
+							</div>
+							<div class="main-block__slide slide-main-block swiper-slide">
+								<div class="slide-main-block__content">
+									<div class="slide-main-block__slider _ibg">
+										<picture><source srcset="img/slider/image3.webp" type="image/webp"><img src="img/slider/image3.png" alt="#"></picture>
+									</div>
+								</div>
+							</div>
+							<div class="main-block__slide slide-main-block swiper-slide">
+								<div class="slide-main-block__content">
+									<div class="slide-main-block__slider _ibg">
+										<picture><source srcset="img/slider/image4.webp" type="image/webp"><img src="img/slider/image4.png" alt="#"></picture>
+									</div>
+								</div>
+							</div>
+							<div class="main-block__slide slide-main-block swiper-slide">
+								<div class="slide-main-block__content">
+									<div class="slide-main-block__slider _ibg">
+										<picture><source srcset="img/slider/image5.webp" type="image/webp"><img src="img/slider/image5.png" alt="#"></picture>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="main-block__controll controll-main-block">
+							<div class="controll-main-block__dotts"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__about-block about-block">
+				<div class="about-block__container">
+					<h2 class="about-block__title title-block">О нас</h2>
+					<div class="about-block__service service-about">
+						<div data-da=".service-about__left, 767.9, 0" class="service-about__column">
+							<div class="service-about__icon">
+								<img src="img/icons/01.svg" alt="Иконка">
+							</div>
+							<div class="service-about__text">Детская стоматология</div>
+						</div>
+						<div data-da=".service-about__left, 767.9, 1" class="service-about__column">
+							<div class="service-about__icon">
+								<img src="img/icons/02.svg" alt="Иконка">
+							</div>
+							<div class="service-about__text">Профессиональное европейское
+								оборудование</div>
+						</div>
+						<div data-da=".service-about__right, 767.9, 0" class="service-about__column">
+							<div class="service-about__icon">
+								<img src="img/icons/03.svg" alt="Иконка">
+							</div>
+							<div class="service-about__text">Все виды стоматологических
+								услуг</div>
+						</div>
+						<div data-da=".service-about__right, 767.9, 1" class="service-about__column">
+							<div class="service-about__icon">
+								<img src="img/icons/04.svg" alt="Иконка">
+							</div>
+							<div class="service-about__text">Квалифицированные специалисты</div>
+						</div>
+						<div class="service-about__left"></div>
+						<div class="service-about__right"></div>
+					</div>
+					<div class="about-block__doctor doctor-about">
+						<div class="doctor-about__block">
+							<div class="doctor-about__personal">
+								<div class="doctor-about__person">
+									<div class="doctor-about__icon _ibg">
+										<picture><source srcset="img/doctor/01.webp" type="image/webp"><img src="img/doctor/01.png" alt="#"></picture>
+									</div>
+									<div class="doctor-about__name">Иващенко Ирина Игоревна</div>
+									<div class="doctor-about__position">Главный врач </div>
+								</div>
+								<div class="doctor-about__person">
+									<div class="doctor-about__icon _ibg">
+										<picture><source srcset="img/doctor/02.webp" type="image/webp"><img src="img/doctor/02.png" alt="#"></picture>
+									</div>
+									<div class="doctor-about__name">Кучеренко Ольга Петровна</div>
+									<div class="doctor-about__position">Детский стоматолог</div>
+								</div>
+							</div>
+							<div class="doctor-about__info">
+								<div class="doctor-about__title">Семейная стоматология</div>
+								<div class="doctor-about__text">Оказываем весь спектр услуг для всех членов семьи: от лечения деток до протезирования взрослых!</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__price-block price-block">
+				<div class="price-block__container">
+					<h2 class="price-block__title title-block">Прайс</h2>
+					<div data-spollers class="price-block__spollers price-spollers">
+						<div class="price-spollers__left">
+							<div class="price-spollers__item">
+								<div data-spoller class="price-spollers__title">
+									<div class="price-spollers__title1">Обследование</div>
+									<img src="img/pLusss.svg" class="price-spollers__plus" alt="#">
+								</div>
+
+								<div class="price-spollers__body">
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Консультация</div>
+										<div class="price-spollers__value">200 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Прицельная рентгентография</div>
+										<div class="price-spollers__value">50 грн.</div>
+									</div>
+								</div>
+							</div>
+							<div class="price-spollers__item">
+								<div data-spoller class="price-spollers__title">
+									<div class="price-spollers__title1">Профилактика</div>
+									<img src="img/pLusss.svg" class="price-spollers__plus" alt="#">
+								</div>
+								<div class="price-spollers__body">
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Профилактическая гигиена</div>
+										<div class="price-spollers__value">700 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Реминерализирующая аппликация</div>
+										<div class="price-spollers__value">200 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Отбеливание</div>
+										<div class="price-spollers__value">2000 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Анестезия</div>
+										<div class="price-spollers__value">100 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Полировка 1 зуба</div>
+										<div class="price-spollers__value">50 грн.</div>
+									</div>
+								</div>
+							</div>
+							<div class="price-spollers__item">
+								<div data-spoller class="price-spollers__title">
+									<div class="price-spollers__title1">Лечение кариеса / Реставрация</div>
+									<img src="img/pLusss.svg" class="price-spollers__plus" alt="#">
+								</div>
+								<div class="price-spollers__body">
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Фотополимерная пломба</div>
+										<div class="price-spollers__value">500 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Реставрация зуба на 1 штифте</div>
+										<div class="price-spollers__value">700 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Реставрация зуба на 2 штифтах</div>
+										<div class="price-spollers__value">850 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Реставрация фронтального зуба</div>
+										<div class="price-spollers__value">650 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Художественная реставрация фронтального зуба</div>
+										<div class="price-spollers__value">1000 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Реставрация 2/3 зуба</div>
+										<div class="price-spollers__value">800 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Реставрация зуба под коронку</div>
+										<div class="price-spollers__value">1000 грн.</div>
+									</div>
+								</div>
+							</div>
+							<div class="price-spollers__item">
+								<div data-spoller class="price-spollers__title">
+									<div class="price-spollers__title1">Эндодонтия</div>
+									<img src="img/pLusss.svg" class="price-spollers__plus" alt="#">
+								</div>
+								<div class="price-spollers__body">
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Эндо первичное 1 канального зуба</div>
+										<div class="price-spollers__value">600 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Эндо первичное 2 канального зуба</div>
+										<div class="price-spollers__value">750 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Эндо первичное 3 и более канального зуба</div>
+										<div class="price-spollers__value">900 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Эндо вторичное 1 канального зуба</div>
+										<div class="price-spollers__value">550 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Эндо вторичное 2 канального зуба</div>
+										<div class="price-spollers__value">650 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Эндо вторичное 3 и более канального зуба</div>
+										<div class="price-spollers__value">600 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Временная пломбировка канала кальцием (1 шт)</div>
+										<div class="price-spollers__value">120 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Постоянная пломбировка канала (1 шт)</div>
+										<div class="price-spollers__value">200 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Временная пломба</div>
+										<div class="price-spollers__value">50 грн.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="price-spollers__right">
+							<div class="price-spollers__item">
+								<div data-spoller class="price-spollers__title">
+									<div class="price-spollers__title1">Хирургия</div>
+									<img src="img/pLusss.svg" class="price-spollers__plus" alt="">
+								</div>
+								<div class="price-spollers__body">
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Удаление зуба</div>
+										<div class="price-spollers__value">550 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Сложное (атипичное) удаление зуба</div>
+										<div class="price-spollers__value">1 500 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Удаление полуретенированного зуба мудрости</div>
+										<div class="price-spollers__value">3 500 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Удаление ретенированного зуба мудрости</div>
+										<div class="price-spollers__value">4 500 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Гемостатическая губка</div>
+										<div class="price-spollers__value">300 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Установка импланта Bauers</div>
+										<div class="price-spollers__value">7 750 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Установка импланта (Южная Корея) Inno</div>
+										<div class="price-spollers__value">12 500 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Установка импланта Strauman Roxolid (Швейцария)</div>
+										<div class="price-spollers__value">17 800 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Костная пластика с помощью титановой сетки</div>
+										<div class="price-spollers__value">5 800 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Костная пластика (1-2 зубов)</div>
+										<div class="price-spollers__value">7 000 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Синус-лифтинг (закрытый)</div>
+										<div class="price-spollers__value">5 600 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Синус-лифтинг (открытый)</div>
+										<div class="price-spollers__value">15 000 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Коллагеновая мембрана 15x20</div>
+										<div class="price-spollers__value">5 000 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Коллагеновая мембрана 13x40</div>
+										<div class="price-spollers__value">13 000 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Удаление импланта</div>
+										<div class="price-spollers__value">4 000 грн.</div>
+									</div>
+								</div>
+							</div>
+							<div class="price-spollers__item">
+								<div data-spoller class="price-spollers__title">
+									<div class="price-spollers__title1">Ортопедия</div>
+									<img src="img/pLusss.svg" class="price-spollers__plus" alt="#">
+								</div>
+								<div class="price-spollers__body">
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Временная коронка (лабораторная)</div>
+										<div class="price-spollers__value">700 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Временный абатмент (индивидуальное формирование десен)</div>
+										<div class="price-spollers__value">1 800 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Коронка из оксида циркония</div>
+										<div class="price-spollers__value">4 200 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Коронка керамическая на кобальто-хромированном каркасе</div>
+										<div class="price-spollers__value">2 000 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Протез акриловый</div>
+										<div class="price-spollers__value">3 500 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Протез нейлоновый</div>
+										<div class="price-spollers__value">5 000 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Винир emax</div>
+										<div class="price-spollers__value">6 600 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Циркониевая коронка</div>
+										<div class="price-spollers__value">5 400 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Циркониевая коронка на имплант</div>
+										<div class="price-spollers__value">14 850 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Оттиск под протез</div>
+										<div class="price-spollers__value">500 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Металлокерамическая коронка на имплант</div>
+										<div class="price-spollers__value">10 800 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Фиксация коронки на цемент</div>
+										<div class="price-spollers__value">200 грн.</div>
+									</div>
+								</div>
+							</div>
+							<div class="price-spollers__item">
+								<div data-spoller class="price-spollers__title">
+									<div class="price-spollers__title1">Детская стоматология</div>
+									<img src="img/pLusss.svg" class="price-spollers__plus" alt="#">
+								</div>
+								<div class="price-spollers__body">
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Фотополимерная пломба временный зуб</div>
+										<div class="price-spollers__value">400 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Фотополимерная пломба постоянный зуб</div>
+										<div class="price-spollers__value">500 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Ампутация пульпы временный зуб</div>
+										<div class="price-spollers__value">300 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Лечение пульпита временного зуба</div>
+										<div class="price-spollers__value">450 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Герметизация фиссур исинвазивная</div>
+										<div class="price-spollers__value">450 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Герметезация фиссур инвазивная</div>
+										<div class="price-spollers__value">550 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Удаление временного зуба</div>
+										<div class="price-spollers__value">450 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Профилактическая гигиена</div>
+										<div class="price-spollers__value">450 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Фоторирование</div>
+										<div class="price-spollers__value">200 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Лечебная прокладка</div>
+										<div class="price-spollers__value">300 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Брекет-система металлическая (1 челюсть)</div>
+										<div class="price-spollers__value">8 000 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Брекет-система керамическая (1 челюсть)</div>
+										<div class="price-spollers__value">9 000 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Брекет-система сапфировая (1 челюсть)</div>
+										<div class="price-spollers__value">11 000 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Замена резинок на брекет-системе</div>
+										<div class="price-spollers__value">300 грн.</div>
+									</div>
+									<div class="price-spollers__column">
+										<div class="price-spollers__service">Замена дуги на брекет-системе</div>
+										<div class="price-spollers__value">500 грн.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+			<div class="page__contacts-block contacts-block">
+				<div class="contacts-block__container">
+					<div class="contacts-block__title title-block">Контакты</div>
+					<div class="contacts-block__about">
+						<div class="contacts-block__info contacts-info">
+							<div class="contacts-info__work">
+								<div class="contacts-info__title">Режим работы:</div>
+								<div class="contacts-info__text">
+									ПН-ПТ: 8:30 - 18:30 <br> CБ - ВС: по записи
+								</div>
+							</div>
+							<div class="contacts-info__social">
+								<div class="contacts-info__title">Контактная информация:</div>
+								<ul class="contacts-info__list">
+									<li>
+										<a href="tel:3806833353303" class="contacts-info__net _icon-phone">+ 38 (068) 333 533 03</a>
+									</li>
+									<li>
+										<a target="_blank" href="https://instagram.com/ident_clinic_nmsk?utm_medium=copy_link" class="contacts-info__net _icon-inst">@ident_clinic_nmsk</a>
+									</li>
+									<li>
+										<a target="_blank" href="https://www.facebook.com/104745058704331/posts/127694449742725/?d=n" class="contacts-info__net contacts-info__net1 _icon-fbook">@ident.clinic.nmsk</a>
+									</li>
+
+								</ul>
+							</div>
+						</div>
+						<div class="contacts-block__map contacts-map">
+							<div class="contacts-map__title">Адрес:</div>
+							<div class="contacts-map__txt _icon-gps">г. Новомосковск, ул. Сучкова 13 (напротив самолета)</div>
+							<iframe class="contacts-map__maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2636.630870208089!2d35.257078815847684!3d48.63604532429011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d945437cac4859%3A0x170705970e700d41!2sIDent%20Clinic!5e0!3m2!1sru!2sua!4v1642459009767!5m2!1sru!2sua" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="page__review-block review-block">
+				<div class="review-block__container">
+
+					<div class="review-block__left">
+						<!-- Оболочка слайдера -->
+						<div class="review-block__slider swiper">
+							<!-- Двигающееся часть слайдера -->
+							<div class="review-block__wrapper swiper-wrapper">
+								<!-- Слайд -->
+								<div class="review-block__slide swiper-slide">
+									<div class="review-block__contents">
+										<div class="review-block__name">Алина</div>
+										<div class="review-block__stars">★★★★★</div>
+										<div class="review-block__text">“ Огромное вам спасибо! Вы просто мастера своего дела! Я и не думала, что у стоматолога может быть так уютно и комфортно.
+											Быстро, качественно и не дорого. Буду всем вам Вас рекомендовать!
+											СПАСИБО! ”
+										</div>
+									</div>
+								</div>
+								<div class="review-block__slide swiper-slide">
+									<div class="review-block__contents">
+										<div class="review-block__name">Аня</div>
+										<div class="review-block__stars">★★★★★</div>
+										<div class="review-block__text">“ Я обратилась в клинику насчет отбеливания зубов. Мне казалось, что это больно и неприятно. Но это оказалось совсем не так!
+											Совершенно не больно и просто обалденный результат!
+											Рекомендую :) ”
+										</div>
+									</div>
+								</div>
+								<div class="review-block__slide swiper-slide">
+									<div class="review-block__contents">
+										<div class="review-block__name">Александра</div>
+										<div class="review-block__stars">★★★★★</div>
+										<div class="review-block__text">“ Детский врач - Кучеренко Ольга настоящая фея! После приема ребенок остался доволен. Нам даже конфетку выдали за храбрость.
+											Очень рада, что для первого стоматолога сына выбрала именно эту клинику. ”
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Если нужна навигация (влево/вправо) -->
+							<button type="button" class="review-block__swiper-button-prev _icon-arrow"></button>
+							<button type="button" class="review-block__swiper-button-next _icon-arrow"></button>
+						</div>
+					</div>
+
+
+					<form action="#" id="form" class="review-block__right">
+						<div class="review-block__content">
+							<div class="review-block__title">Запись на прием:</div>
+							<input placeholder="Ваше имя" id="name_form" name="name" type="text" class="review-block__input _req">
+							<input placeholder="Ваш номер телефона" id="phone_form" name="phone" type="phone" class="review-block__input _req _phone">
+
+							<div class="review-block__row">
+								<button type="submit" id="btn_form" class="review-block__button">Отправить</button>
+							</div>
+							<!-- <button data-close type="button" class="popup__close">Закрыть</button> -->
+
+						</div>
+
+					</form>
+
+
+				</div>
+			</div>
+
+
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top">
+					<div class="footer__info">
+						<a class="footer__logo" href="#">
+							<img src="img/logofooter.svg" alt="">
+						</a>
+						<div class="footer__text">Доверьте свою улыбку проффесионалам!</div>
+						<div class="footer__social">
+							<a target="_blank" href="https://instagram.com/ident_clinic_nmsk?utm_medium=copy_link" class="footer__net _icon-inst"></a>
+							<a target="_blank" href="https://www.facebook.com/104745058704331/posts/127694449742725/?d=n" class="footer__net _icon-fbook"></a>
+							<a href="" class="footer__net _icon-mail"></a>
+						</div>
+					</div>
+					<div class="footer__links">
+						<div class="footer__time">
+							<div class="footer__title">Режим работы:</div>
+							<div class="footer__txt">ПН-ПТ: 8:30-18:30<br>СБ-ВС: по записи
+							</div>
+						</div>
+						<div class="footer__nav">
+							<ul class="footer__list">
+								<li class="footer__item"><a href="#" data-goto-top="45" data-goto=".page__about-block" class="footer__link">О нас</a></li>
+								<li class="footer__item"><a href="#" data-goto=".page__price-block" class="footer__link">Прайс</a></li>
+								<li class="footer__item"><a href="#" data-goto=".page__review-block" class="footer__link">Отзывы</a></li>
+								<li class="footer__item"><a href="#" data-goto=".page__contacts-block" class="footer__link">Контакты</a></li>
+							</ul>
+						</div>
+						<div class="footer__contact">
+							<div class="footer__phone">
+								<a href="tel:3806833353303" class="footer__number">+ 38 (068) 333 533 03</a>
+							</div>
+							<div class="footer__adress">ул, Сучкова 13,<br> Новомосковск,<br> Украина</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<div class="footer__clinic">© 2022. IDent Clinic</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20220211002856"></script>
+</body>
+
+</html>
